@@ -1,161 +1,158 @@
-<h1>Manual de usabilidade google maps Mobile.</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Manual Google Maps</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
 
-  | Sistemas operacionais |                  |
-|----------------------|------------------|
-| Mac OS / Android /   | Web – Windows / Mac |
+<body class="bg-[#0f172a] text-white font-sans">
 
-        
-<h1>1 – Instalação</h1>
+<div class="flex min-h-screen">
 
-<p>
-<li>Acessar a sua loja do play story ou apple story, ou caso prefira você pode usar na web via Google Maps</li>
-<li>Procurar por Google maps ou maps e realizar a instalação do aplicativo.</li> 
-<li>Lembre-se de ligar sua localização do celular para que o mesmo localize aonde você esta.</li>
-<li>Iniciar a aplicação</li>
-</p>
+  <!-- Sidebar -->
+  <aside class="w-64 bg-[#020617] border-r border-white/10 p-6 hidden md:block">
+    <h1 class="text-xl font-bold mb-8">📍 Maps Guide</h1>
 
-<h1>2- Primeira impressão</h1>
+    <nav class="space-y-4 text-sm text-white/70">
+      <a href="#instalacao" class="block hover:text-white">🚀 Instalação</a>
+      <a href="#mobile" class="block hover:text-white">📱 Mobile</a>
+      <a href="#web" class="block hover:text-white">🌐 Web</a>
+      <a href="#menu" class="block hover:text-white">⚙️ Menu</a>
+    </nav>
+  </aside>
 
-<p>
-Mobile - Após entrar no aplicativo você vera uma interface aonde você vera o mapa baseado em sua localização e uma lupa de pesquisas aonde você poderá usar para realizar pesquisas de locais contendo um botão de fala caso não queria escrever você pode falar com o maps e ele localiza a o endereço procurado e também vera o icon de foto aonde você pode enviar fotos para que o mesmo se baseie na foto para encontrar a localização, também vera abaixo alguns icons na parte de baixo da barra de pesquisa contendo restaurantes, hotéis, coisas legais para fazer, museu, transportes públicos, farmácias, caixa eletrônico, quando algum icone desses e clicado e ativado você conseguira buscar com facilidade todas as coisas a cima, ele serve como um filtro para você.
-</p>
+  <!-- Conteúdo -->
+  <main class="flex-1 p-6 md:p-10">
 
-<p>
-Abaixo você vera imagens dos lugares localização escolhida.
-</p>
+    <!-- Header -->
+    <div class="mb-10">
+      <h1 class="text-3xl font-bold">Manual de Usabilidade</h1>
+      <p class="text-white/60 mt-2">Google Maps — Guia completo Mobile & Web</p>
+    </div>
 
-<h1>3- Interface da web</h1>
+    <!-- Sistemas -->
+    <div class="bg-white/[0.03] border border-white/10 rounded-2xl p-6 mb-8">
+      <h2 class="text-lg font-semibold mb-4">🖥️ Sistemas Compatíveis</h2>
 
-<p>
-Voce vera na web uma interface um pouco diferente aonde você vera a barra de pesquisa no canto superior esquerdo, alguns icons a direita para facilitar a procura das coisas contendo restaurantes, hotéis, coisas legais para fazer, museu, transportes públicos, farmácias, caixa eletrônico.
-</p>
+      <div class="grid grid-cols-2 gap-4 text-sm">
+        <div class="bg-white/[0.02] p-4 rounded-xl">
+          📱 Mobile<br>
+          <span class="text-white/60">Android / iOS</span>
+        </div>
+        <div class="bg-white/[0.02] p-4 rounded-xl">
+          💻 Web<br>
+          <span class="text-white/60">Windows / Mac</span>
+        </div>
+      </div>
+    </div>
 
-<h2 style="display: flex; align-items: center; padding: 0; margin: auto;">
-No menu lateral a esquerda você vera um menu de hanburguer
-<figure><img src="../cardapio.png" alt="Cardapio" style="width: 20px; "></figure>
-clicando nele você abrira uma aba com as seguintes funcionalidades
-</h2>
+    <!-- Instalação -->
+    <section id="instalacao" class="mb-10">
+      <h2 class="text-xl font-semibold mb-4">🚀 Instalação</h2>
 
-<ol>
+      <div class="space-y-3 text-white/70">
+        <p>1. Acesse a Play Store ou App Store</p>
+        <p>2. Busque por <b>Google Maps</b></p>
+        <p>3. Instale o aplicativo</p>
+        <p>4. Ative sua localização</p>
+        <p>5. Abra o app</p>
+      </div>
 
-<li>
-<h4>Mostrar barra lateral</h4>
-<p>Aqui você clica para habilitar ou desabiltar a barra lateral</p>
-</li>
+      <div class="mt-6 bg-white/[0.02] border border-white/10 rounded-xl p-4">
+        🖼️ Adicione aqui um print da instalação
+      </div>
+    </section>
 
-<li>
-<h4>Salvos</h4>
-<p>Essa funcionalidade epermite que você salve tudo oq precisa e usara sempre</p>
-</li>
+    <!-- Mobile -->
+    <section id="mobile" class="mb-10">
+      <h2 class="text-xl font-semibold mb-4">📱 Interface Mobile</h2>
 
-<li>
-<h4>Recentes</h4>
-<p>Voce pode verificar todas as suas rotas, pesquisas recentestes, lugares entre outros</p>
-</li>
+      <div class="grid md:grid-cols-2 gap-6">
 
-<li>
-<h4>Suas contribuições</h4>
-<p>Nessa seção você poderá realizar todo o tipo de situação em tempo real para que o google maps auxilie e informe outros usaurios</p>
-</li>
+        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
+          <h3 class="font-semibold mb-2">🗺️ Mapa</h3>
+          <p class="text-white/60">Mostra sua localização em tempo real</p>
+        </div>
 
-<li>
-<h4>Compartilhamento de local</h4>
-<p>Voce consegue compartilhar seu local ou algum local escolhido com outras pessoas</p>
-</li>
+        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
+          <h3 class="font-semibold mb-2">🔍 Pesquisa</h3>
+          <p class="text-white/60">Digite, fale 🎤 ou use imagem 📷</p>
+        </div>
 
-<li>
-<h4>Sua linha do tempo</h4>
-<p>
-Mostra os lugares que você visitou ao longo dos dias.<br>
-Exibe rotas que você fez (a pé, de carro, transporte etc.).<br>
-Permite ver por data (ex: onde você esteve ontem, semana passada).<br>
-Dá pra editar ou apagar locais do histórico.
-</p>
-</li>
+        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
+          <h3 class="font-semibold mb-2">🍔 Filtros</h3>
+          <p class="text-white/60">Restaurantes, hotéis, farmácias etc.</p>
+        </div>
 
-<li>
-<h4>Seus dados no Maps</h4>
-<p>
-È a área de controle das suas informações.<br>
-Mostra e permite gerenciar:<br>
-Histórico de localização<br>
-Histórico de pesquisas<br>
-Atividade no app<br>
-Dá pra excluir dados, configurar privacidade e ajustar o que é salvo.
-</p>
-</li>
+        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
+          <h3 class="font-semibold mb-2">⚡ Navegação rápida</h3>
+          <p class="text-white/60">Sugestões inteligentes baseadas em você</p>
+        </div>
 
-<li>
-<h4>Compartilhar ou incorporar mapa</h4>
-<p>
-Aqui você pode compartilhar o link de sua localização em suas redes sociais ou incorporar que seria enviar o código para que você coloque a imagem do mapa em seu código de desenvolvimento.
-</p>
-</li>
+      </div>
 
-<li>
-<h4>Imprimir</h4>
-<p>Voce consegue clicando aqui imprimir sua localização</p>
-</li>
+      <div class="mt-6 bg-white/[0.02] border border-white/10 rounded-xl p-4">
+        🖼️ Adicione aqui print do mobile
+      </div>
+    </section>
 
-<li>
-<h4>Adicionar um lugar que está faltando</h4>
-<p>aqui você adiciona lugares que estão faltando ou que você não encontra</p>
-</li>
+    <!-- Web -->
+    <section id="web" class="mb-10">
+      <h2 class="text-xl font-semibold mb-4">🌐 Interface Web</h2>
 
-<li>
-<h4>Adicionar sua empresa</h4>
-<p>Adicione su empresa ao google maps</p>
-</li>
+      <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
+        <p class="text-white/70">
+          Interface com barra de pesquisa no canto superior esquerdo e filtros para facilitar a navegação.
+        </p>
+      </div>
+    </section>
 
-<li>
-<h4>Editar o mapa</h4>
-<p>
-Permite sugerir mudanças no mapa. Você pode:<br>
-Corrigir nome de lugares<br>
-Ajustar endereços ou horários<br>
-Marcar locais que fecharam<br>
-Adicionar detalhes (fotos, categorias, etc.)
-</p>
-</li>
+    <!-- Menu -->
+    <section id="menu">
+      <h2 class="text-xl font-semibold mb-4">⚙️ Menu Lateral</h2>
 
-<li>
-<h4>Dicas e sugestões</h4>
-<p>
-Área onde o app mostra recomendações personalizadas, como:<br>
-Lugares para visitar<br>
-Restaurantes e pontos populares<br>
-Sugestões com base no que você costuma pesquisar ou visitar
-</p>
-</li>
+      <div class="grid md:grid-cols-2 gap-4">
 
-<li>
-<h4>Ajuda</h4>
-<p>
-Leva para a central de suporte. Lá você pode:<br>
-Tirar dúvidas sobre como usar o Maps<br>
-Ver tutoriais<br>
-Resolver problemas técnicos
-</p>
-</li>
+        <!-- Item -->
+        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
+          ⭐ <b>Salvos</b>
+          <p class="text-white/60 text-sm mt-1">Guarde locais favoritos</p>
+        </div>
 
-<li>
-<h4>Informações dos consumidores</h4>
-<p>
-Mostra dados e conteúdos feitos por usuários, como:<br>
-Avaliações e comentários<br>
-Fotos de lugares<br>
-Notas (estrelas) dos estabelecimentos
-</p>
-</li>
+        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
+          🕒 <b>Recentes</b>
+          <p class="text-white/60 text-sm mt-1">Histórico de pesquisas</p>
+        </div>
 
-<li>
-<h4>Idioma</h4>
-<p>Clique aqui e escolha o idioma de sua preferencia</p>
-</li>
+        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
+          📍 <b>Compartilhar localização</b>
+          <p class="text-white/60 text-sm mt-1">Envie sua posição</p>
+        </div>
 
-<li>
-<h4>Configurações de pesquisa</h4>
-<p>você pode realizar todas as suas preferencias e configurações de pesquisa no google mpas</p>
+        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
+          🗺️ <b>Linha do tempo</b>
+          <p class="text-white/60 text-sm mt-1">Veja locais visitados</p>
+        </div>
+
+        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
+          ➕ <b>Adicionar lugar</b>
+          <p class="text-white/60 text-sm mt-1">Inclua novos locais</p>
+        </div>
+
+        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
+          ❓ <b>Ajuda</b>
+          <p class="text-white/60 text-sm mt-1">Suporte e tutoriais</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+
+</body>
+</html>a no google mpas</p>
 </li>
 
 <li>
