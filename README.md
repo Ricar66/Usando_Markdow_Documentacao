@@ -1,163 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Manual Google Maps</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+📍 Manual de Usabilidade — Google Maps
+🖥️ Sistemas Operacionais
+<table> <tr> <td>📱 <b>Mobile</b></td> <td>Android / iOS</td> </tr> <tr> <td>💻 <b>Web</b></td> <td>Windows / Mac</td> </tr> </table>
+🚀 1 – Instalação
+<ol> <li>Acessar a loja do Play Store ou Apple Store, ou usar via navegador</li> <li>Procurar por <b>Google Maps</b> e instalar</li> <li>Ativar a localização do celular</li> <li>Iniciar a aplicação</li> </ol> <br> <p align="center"> <img src="./images/instalacao.png" width="400"/> </p>
+📱 2 – Primeira impressão (Mobile)
+<p> Após entrar no aplicativo, você verá um mapa baseado na sua localização atual. </p>
+🔍 Pesquisa
+<ul> <li>Digite o local</li> <li>Use voz 🎤</li> <li>Use imagem 📷</li> </ul>
+📌 Filtros disponíveis
+<div align="center"> <table> <tr> <td>🍔 Restaurantes</td> <td>🏨 Hotéis</td> <td>🎯 O que fazer</td> <td>🏛️ Museus</td> </tr> <tr> <td>🚍 Transporte</td> <td>💊 Farmácias</td> <td>🏧 Caixa eletrônico</td> <td>-</td> </tr> </table> </div> <p align="center"><i>Esses botões funcionam como filtros para facilitar a busca</i></p> <br> <p align="center"> <img src="./images/mobile.png" width="400"/> </p>
+🌐 3 – Interface da Web
+<p> Na versão web, a interface é um pouco diferente: </p> <ul> <li>Barra de pesquisa no canto superior esquerdo</li> <li>Filtros para restaurantes, hotéis, museus e mais</li> </ul> <br> <p align="center"> <img src="./images/web.png" width="500"/> </p>
+🍔 Menu (Hambúrguer)
+<p align="center"> <img src="./images/menu.png" width="80"/> </p> <p align="center"> Clique no menu para acessar todas as funcionalidades abaixo </p>
+⚙️ Funcionalidades do Menu
+<details> <summary><b>📑 Mostrar barra lateral</b></summary> <br> Ativa ou desativa o menu lateral. </details> <details> <summary><b>⭐ Salvos</b></summary> <br> Permite salvar locais importantes para acesso rápido. </details> <details> <summary><b>🕒 Recentes</b></summary> <br> Mostra pesquisas, rotas e locais visitados recentemente. </details> <details> <summary><b>✍️ Suas contribuições</b></summary> <br> Permite avaliar locais, adicionar fotos e atualizar informações. </details> <details> <summary><b>📍 Compartilhamento de local</b></summary> <br> Compartilhe sua localização em tempo real. </details> <details> <summary><b>🗺️ Sua linha do tempo</b></summary> <br> Mostra locais visitados, rotas realizadas e histórico por data. Permite editar ou apagar dados. </details> <details> <summary><b>🔒 Seus dados no Maps</b></summary> <br> Gerencie histórico de localização, pesquisas e privacidade. </details> <details> <summary><b>🔗 Compartilhar ou incorporar mapa</b></summary> <br> Compartilhe links ou incorpore mapas em sites. </details> <details> <summary><b>🖨️ Imprimir</b></summary> <br> Permite imprimir mapas e rotas. </details> <details> <summary><b>➕ Adicionar um lugar</b></summary> <br> Adicionar locais que não existem no mapa. </details> <details> <summary><b>🏢 Adicionar sua empresa</b></summary> <br> Cadastrar sua empresa no Google Maps. </details> <details> <summary><b>✏️ Editar o mapa</b></summary> <br> Corrigir nomes, endereços, horários e adicionar detalhes. </details> <details> <summary><b>💡 Dicas e sugestões</b></summary> <br> Recomendações personalizadas com base no uso. </details> <details> <summary><b>❓ Ajuda</b></summary> <br> Acesse tutoriais e suporte técnico. </details> <details> <summary><b>⭐ Informações dos consumidores</b></summary> <br> Avaliações, fotos e comentários de outros usuários. </details> <details> <summary><b>🌎 Idioma</b></summary> <br> Alterar idioma do sistema. </details> <details> <summary><b>⚙️ Configurações de pesquisa</b></summary> <br> Definir preferências e personalizar buscas. </details>
+💡 Dica importante
 
-<body class="bg-[#0f172a] text-white font-sans">
-
-<div class="flex min-h-screen">
-
-  <!-- Sidebar -->
-  <aside class="w-64 bg-[#020617] border-r border-white/10 p-6 hidden md:block">
-    <h1 class="text-xl font-bold mb-8">📍 Maps Guide</h1>
-
-    <nav class="space-y-4 text-sm text-white/70">
-      <a href="#instalacao" class="block hover:text-white">🚀 Instalação</a>
-      <a href="#mobile" class="block hover:text-white">📱 Mobile</a>
-      <a href="#web" class="block hover:text-white">🌐 Web</a>
-      <a href="#menu" class="block hover:text-white">⚙️ Menu</a>
-    </nav>
-  </aside>
-
-  <!-- Conteúdo -->
-  <main class="flex-1 p-6 md:p-10">
-
-    <!-- Header -->
-    <div class="mb-10">
-      <h1 class="text-3xl font-bold">Manual de Usabilidade</h1>
-      <p class="text-white/60 mt-2">Google Maps — Guia completo Mobile & Web</p>
-    </div>
-
-    <!-- Sistemas -->
-    <div class="bg-white/[0.03] border border-white/10 rounded-2xl p-6 mb-8">
-      <h2 class="text-lg font-semibold mb-4">🖥️ Sistemas Compatíveis</h2>
-
-      <div class="grid grid-cols-2 gap-4 text-sm">
-        <div class="bg-white/[0.02] p-4 rounded-xl">
-          📱 Mobile<br>
-          <span class="text-white/60">Android / iOS</span>
-        </div>
-        <div class="bg-white/[0.02] p-4 rounded-xl">
-          💻 Web<br>
-          <span class="text-white/60">Windows / Mac</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Instalação -->
-    <section id="instalacao" class="mb-10">
-      <h2 class="text-xl font-semibold mb-4">🚀 Instalação</h2>
-
-      <div class="space-y-3 text-white/70">
-        <p>1. Acesse a Play Store ou App Store</p>
-        <p>2. Busque por <b>Google Maps</b></p>
-        <p>3. Instale o aplicativo</p>
-        <p>4. Ative sua localização</p>
-        <p>5. Abra o app</p>
-      </div>
-
-      <div class="mt-6 bg-white/[0.02] border border-white/10 rounded-xl p-4">
-        🖼️ Adicione aqui um print da instalação
-      </div>
-    </section>
-
-    <!-- Mobile -->
-    <section id="mobile" class="mb-10">
-      <h2 class="text-xl font-semibold mb-4">📱 Interface Mobile</h2>
-
-      <div class="grid md:grid-cols-2 gap-6">
-
-        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
-          <h3 class="font-semibold mb-2">🗺️ Mapa</h3>
-          <p class="text-white/60">Mostra sua localização em tempo real</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
-          <h3 class="font-semibold mb-2">🔍 Pesquisa</h3>
-          <p class="text-white/60">Digite, fale 🎤 ou use imagem 📷</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
-          <h3 class="font-semibold mb-2">🍔 Filtros</h3>
-          <p class="text-white/60">Restaurantes, hotéis, farmácias etc.</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
-          <h3 class="font-semibold mb-2">⚡ Navegação rápida</h3>
-          <p class="text-white/60">Sugestões inteligentes baseadas em você</p>
-        </div>
-
-      </div>
-
-      <div class="mt-6 bg-white/[0.02] border border-white/10 rounded-xl p-4">
-        🖼️ Adicione aqui print do mobile
-      </div>
-    </section>
-
-    <!-- Web -->
-    <section id="web" class="mb-10">
-      <h2 class="text-xl font-semibold mb-4">🌐 Interface Web</h2>
-
-      <div class="bg-white/[0.03] p-6 rounded-2xl border border-white/10">
-        <p class="text-white/70">
-          Interface com barra de pesquisa no canto superior esquerdo e filtros para facilitar a navegação.
-        </p>
-      </div>
-    </section>
-
-    <!-- Menu -->
-    <section id="menu">
-      <h2 class="text-xl font-semibold mb-4">⚙️ Menu Lateral</h2>
-
-      <div class="grid md:grid-cols-2 gap-4">
-
-        <!-- Item -->
-        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
-          ⭐ <b>Salvos</b>
-          <p class="text-white/60 text-sm mt-1">Guarde locais favoritos</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
-          🕒 <b>Recentes</b>
-          <p class="text-white/60 text-sm mt-1">Histórico de pesquisas</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
-          📍 <b>Compartilhar localização</b>
-          <p class="text-white/60 text-sm mt-1">Envie sua posição</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
-          🗺️ <b>Linha do tempo</b>
-          <p class="text-white/60 text-sm mt-1">Veja locais visitados</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
-          ➕ <b>Adicionar lugar</b>
-          <p class="text-white/60 text-sm mt-1">Inclua novos locais</p>
-        </div>
-
-        <div class="bg-white/[0.03] p-5 rounded-xl border border-white/10">
-          ❓ <b>Ajuda</b>
-          <p class="text-white/60 text-sm mt-1">Suporte e tutoriais</p>
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-</div>
-
-</body>
-</html>a no google mpas</p>
-</li>
-
-<li>
-<h4>Histórico do Google Maps</h4>
-<p>Verifique todo seu histórico suas pesquisa, lugares e etc</p>
-</li>
-
-</ol>
+⚠️ Ative sempre a localização para obter resultados mais precisos
